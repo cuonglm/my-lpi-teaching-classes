@@ -1,0 +1,152 @@
+A Linux distribution (often abbreviated as distro) is an operating system made
+from a software collection, which is based upon the Linux kernel and, often, a
+package management system. Linux users usually obtain their operating system by
+downloading one of the Linux distributions, which are available for a wide
+variety of systems ranging from embedded devices (for example, OpenWrt) and
+personal computers (for example, Linux Mint) to powerful supercomputers (for
+example, Rocks Cluster Distribution).
+
+A typical Linux distribution comprises a Linux kernel, GNU tools and libraries,
+additional software, documentation, a window system (the most common being the X
+Window System), a window manager, and a desktop environment. Most of the
+included software is free and open-source software made available both as
+compiled binaries and in source code form, allowing modifications to the
+original software. Usually, Linux distributions optionally include some
+proprietary software that may not be available in source code form, such as
+binary blobs required for some device drivers.[1] A Linux distribution may also
+be described as a particular assortment of application and utility software
+(various GNU tools and libraries, for example), packaged together with the Linux
+kernel in such a way that its capabilities meet the needs of many users.[2] The
+software is usually adapted to the distribution and then packaged into software
+packages by the distribution's maintainers. The software packages are available
+online in so-called repositories, which are storage locations usually
+distributed around the world.[3][4] Beside glue components, such as the
+distribution installers (for example, Debian-Installer and Anaconda) or the
+package management systems, there are only very few packages that are originally
+written from the ground up by the maintainers of a Linux distribution.
+
+Almost six hundred Linux distributions exist, with close to five hundred out of
+those in active development.[5] Because of the huge availability of software,
+distributions have taken a wide variety of forms, including those suitable for
+use on desktops, servers, laptops, netbooks, mobile phones and tablets,[6][7] as
+well as minimal environments typically for use in embedded systems.[8][9] There
+are commercially backed distributions, such as Fedora (Red Hat), openSUSE (SUSE)
+and Ubuntu (Canonical Ltd.), and entirely community-driven distributions, such
+as Debian, Slackware, Gentoo and Arch Linux. Most distributions come ready to
+use and pre-compiled for a specific instruction set, while some distributions
+(such as Gentoo) are distributed mostly in source code form and compiled locally
+during installation.[10]
+
+History[edit]
+
+A timeline representing the development of various Linux distributions,
+including Android, as of 2016[11] Linus Torvalds developed the Linux kernel and
+distributed its first version, 0.01, in 1991. Linux was initially distributed as
+source code only, and later as a pair of downloadable floppy disk images – one
+bootable and containing the Linux kernel itself, and the other with a set of GNU
+utilities and tools for setting up a file system. Since the installation
+procedure was complicated, especially in the face of growing amounts of
+available software, distributions sprang up to simplify this.[12]
+
+Early distributions included the following:
+
+H. J. Lu's "Boot-root", the aforementioned disk image pair with the kernel and
+the absolute minimal tools to get started MCC Interim Linux, which was made
+available to the public for download in February 1992 Softlanding Linux System
+(SLS), released in 1992, was the most comprehensive distribution for a short
+time, including the X Window System Yggdrasil Linux/GNU/X, a commercial
+distribution first released in December 1992 The two oldest and still active
+distribution projects started in 1993. The SLS distribution was not well
+maintained, so in July 1993 a new distribution, called Slackware and based on
+SLS, was released by Patrick Volkerding.[13] Also dissatisfied with SLS, Ian
+Murdock set to create a free distribution by founding Debian, which had its
+first release in December 1993.[14]
+
+Users were attracted to Linux distributions as alternatives to the DOS and
+Microsoft Windows operating systems on IBM PC compatible computers, Mac OS on
+the Apple Macintosh, and proprietary versions of Unix. Most early adopters were
+familiar with Unix from work or school. They embraced Linux distributions for
+their low (if any) cost, and availability of the source code for most or all of
+the software included.
+
+Originally, the distributions were simply a convenience,[citation needed] but
+later they became the usual choice even for Unix or Linux experts.
+
+To date, Linux has proven more popular in the server market, primarily for Web
+and database servers (for example, in the LAMP stack), and in embedded devices
+market than in the desktop market.
+
+Components[edit]
+
+A Linux distribution is usually built around a package management system, which
+puts together the Linux kernel, free and open-source software, and often some
+proprietary software.  Many Linux distributions provide an installation system
+akin to that provided with other modern operating systems. On the other hand,
+some distributions, including Gentoo Linux, provide only the binaries of a basic
+kernel, compilation tools, and an installer; the installer compiles all the
+requested software for the specific architecture of the user's computer, using
+these tools and the provided source code.
+
+Package management[edit] See also: Package management system and Linux package
+formats Distributions are normally segmented into packages. Each package
+contains a specific application or service. Examples of packages are a library
+for handling the PNG image format, a collection of fonts or a web browser.
+
+The package is typically provided as compiled code, with installation and
+removal of packages handled by a package management system (PMS) rather than a
+simple file archiver. Each package intended for such a PMS contains
+meta-information such as a package description, version, and "dependencies". The
+package management system can evaluate this meta-information to allow package
+searches, to perform an automatic upgrade to a newer version, to check that all
+dependencies of a package are fulfilled, and/or to fulfill them automatically.
+
+Although Linux distributions typically contain much more software than
+proprietary operating systems, it is normal for local administrators to also
+install software not included in the distribution. An example would be a newer
+version of a software application than that supplied with a distribution, or an
+alternative to that chosen by the distribution (for example, KDE Plasma
+Workspaces rather than GNOME or vice versa for the user interface layer). If the
+additional software is distributed in source-only form, this approach requires
+local compilation. However, if additional software is locally added, the "state"
+of the local system may fall out of synchronization with the state of the
+package manager's database. If so, the local administrator will be required to
+take additional measures to ensure the entire system is kept up to date. The
+package manager may no longer be able to do so automatically.
+
+Most distributions install packages, including the kernel and other core
+operating system components, in a predetermined configuration. Few now require
+or even permit configuration adjustments at first install time. This makes
+installation less daunting, particularly for new users, but is not always
+acceptable. For specific requirements, much software must be carefully
+configured to be useful, to work correctly with other software, or to be secure,
+and local administrators are often obliged to spend time reviewing and
+reconfiguring assorted software.
+
+Some distributions go to considerable lengths to specifically adjust and
+customize most or all of the software included in the distribution. Not all do
+so. Some distributions provide configuration tools to assist in this process.
+
+By replacing everything provided in a distribution, an administrator may reach a
+"distribution-less" state: everything was retrieved, compiled, configured, and
+installed locally. It is possible to build such a system from scratch, avoiding
+a distribution altogether. One needs a way to generate the first binaries until
+the system is self-hosting. This can be done via compilation on another system
+capable of building binaries for the intended target (possibly by
+cross-compilation). For example, see Linux From Scratch.
+
+Types and trends[edit] Further information: Linux adoption and Comparison of
+Linux distributions In broad terms, Linux distributions may be:
+
+Commercial or non-commercial Designed for enterprise users, power users, or for
+home users Supported on multiple types of hardware, or platform-specific, even
+to the extent of certification by the platform vendor Designed for servers,
+desktops, or embedded devices General purpose or highly specialized toward
+specific machine functionalities (e.g. firewalls, network routers, and computer
+clusters) Targeted at specific user groups, for example through language
+internationalization and localization, or through inclusion of many music
+production or scientific computing packages Built primarily for security,
+usability, portability, or comprehensiveness The diversity of Linux
+distributions is due to technical, organizational, and philosophical variation
+among vendors and users. The permissive licensing of free software means that
+any user with sufficient knowledge and interest can customize an existing
+distribution or design one to suit his or her own needs.
