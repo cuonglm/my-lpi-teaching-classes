@@ -20,15 +20,18 @@ and:
 ```sh
 ls /dev/null /dev/do-not-exist >/dev/null 2>&1
 ```
--> commands 1: output stderr > stdout > the terminal
+# Answers:
+commands 1: output stderr > stdout > the terminal
 ```sh
 ls: cannot access /dev/do-not-exist: No such file or directory
 ```
--> commands 2: output stderr > /dev/null > sdtout > the terminal.
+commands 2: output stderr > /dev/null > sdtout > the terminal.
 
 # Question 3
 
 What is signals? Which signals can not be caught by process?
+
+# Answers:
 
 A signals is a message that is sent to a process to tell it to take some sort of action, such as stop, restart, or pause.
 
@@ -44,6 +47,7 @@ With text file in `data.txt`:
 
 `data.txt` content refer from [here](https://en.wikipedia.org/wiki/Linux_distribution)
 
-
- - Which command will change modification time of `data.txt` to some day in the past: touch -ac
-
+# Answers:
+ - Which command will change modification time of `data.txt` to some day in the past: touch -ac 
+ - Print all even lines in `data.txt` to a file named `event_lines.txt`: awk 'NR%2==0' data.txt > even_lines.txt
+ - Make in-place change: `Linux` to `LINUX`: sed -i -e 's/Linux/LINUX/' data.txt
