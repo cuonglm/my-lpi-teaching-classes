@@ -49,5 +49,5 @@ With text file in `data.txt`:
 
 # Answers:
  - Which command will change modification time of `data.txt` to some day in the past: touch -ac 
- - Print all even lines in `data.txt` to a file named `event_lines.txt`: awk 'NR%2==0' data.txt > even_lines.txt
+ - Print all even lines in `data.txt` to a file named `event_lines.txt`: sed '1d; n; d' data.txt > even_lines.txt
  - Make in-place change: `Linux` to `LINUX`: sed -i -e 's/Linux/LINUX/' data.txt
