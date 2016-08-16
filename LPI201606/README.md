@@ -6,6 +6,8 @@ Why and how to fix this pipe output only one line with en_US.utf8 locale in GNU/
 $ printf '%b\n' '\U2460' '\U2461' | sort -u
 ①
 ```
+# Answer 1:
+$ printf '%b' '\U2460' '\U2461' | sort -u
 
 # Question 2
 
@@ -48,6 +50,6 @@ With text file in `data.txt`:
 `data.txt` content refer from [here](https://en.wikipedia.org/wiki/Linux_distribution)
 
 # Answers:
- - Which command will change modification time of `data.txt` to some day in the past: touch -ac 
+ - Which command will change modification time of `data.txt` to some day in the past: touch -t [yyMMddhhmm] [tenfile]
  - Print all even lines in `data.txt` to a file named `event_lines.txt`: sed '1d; n; d' data.txt > even_lines.txt
  - Make in-place change: `Linux` to `LINUX`: sed -i -e 's/Linux/LINUX/' data.txt
