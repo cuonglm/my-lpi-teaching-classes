@@ -1,0 +1,76 @@
+from a software collection, which is based upon the LINUX kernel and, often, a
+downloading one of the LINUX distributions, which are available for a wide
+personal computers (for example, LINUX Mint) to powerful supercomputers (for
+
+additional software, documentation, a window system (the most common being the X
+included software is free and open-source software made available both as
+original software. Usually, LINUX distributions optionally include some
+binary blobs required for some device drivers.[1] A LINUX distribution may also
+(various GNU tools and libraries, for example), packaged together with the LINUX
+software is usually adapted to the distribution and then packaged into software
+online in so-called repositories, which are storage locations usually
+distribution installers (for example, Debian-Installer and Anaconda) or the
+written from the ground up by the maintainers of a LINUX distribution.
+Almost six hundred LINUX distributions exist, with close to five hundred out of
+distributions have taken a wide variety of forms, including those suitable for
+well as minimal environments typically for use in embedded systems.[8][9] There
+and Ubuntu (Canonical Ltd.), and entirely community-driven distributions, such
+use and pre-compiled for a specific instruction set, while some distributions
+during installation.[10]
+History[edit]
+A timeline representing the development of various LINUX distributions,
+distributed its first version, 0.01, in 1991. LINUX was initially distributed as
+bootable and containing the LINUX kernel itself, and the other with a set of GNU
+procedure was complicated, especially in the face of growing amounts of
+
+
+the absolute minimal tools to get started MCC Interim LINUX, which was made
+(SLS), released in 1992, was the most comprehensive distribution for a short
+distribution first released in December 1992 The two oldest and still active
+maintained, so in July 1993 a new distribution, called Slackware and based on
+Murdock set to create a free distribution by founding Debian, which had its
+
+Microsoft Windows operating systems on IBM PC compatible computers, Mac OS on
+familiar with Unix from work or school. They embraced LINUX distributions for
+the software included.
+Originally, the distributions were simply a convenience,[citation needed] but
+
+and database servers (for example, in the LAMP stack), and in embedded devices
+
+
+puts together the LINUX kernel, free and open-source software, and often some
+akin to that provided with other modern operating systems. On the other hand,
+kernel, compilation tools, and an installer; the installer compiles all the
+these tools and the provided source code.
+Package management[edit] See also: Package management system and LINUX package
+contains a specific application or service. Examples of packages are a library
+
+removal of packages handled by a package management system (PMS) rather than a
+meta-information such as a package description, version, and "dependencies". The
+searches, to perform an automatic upgrade to a newer version, to check that all
+
+proprietary operating systems, it is normal for local administrators to also
+version of a software application than that supplied with a distribution, or an
+Workspaces rather than GNOME or vice versa for the user interface layer). If the
+local compilation. However, if additional software is locally added, the "state"
+package manager's database. If so, the local administrator will be required to
+package manager may no longer be able to do so automatically.
+Most distributions install packages, including the kernel and other core
+or even permit configuration adjustments at first install time. This makes
+acceptable. For specific requirements, much software must be carefully
+and local administrators are often obliged to spend time reviewing and
+
+customize most or all of the software included in the distribution. Not all do
+
+"distribution-less" state: everything was retrieved, compiled, configured, and
+a distribution altogether. One needs a way to generate the first binaries until
+capable of building binaries for the intended target (possibly by
+
+LINUX distributions In broad terms, Linux distributions may be:
+Commercial or non-commercial Designed for enterprise users, power users, or for
+to the extent of certification by the platform vendor Designed for servers,
+specific machine functionalities (e.g. firewalls, network routers, and computer
+internationalization and localization, or through inclusion of many music
+usability, portability, or comprehensiveness The diversity of LINUX
+among vendors and users. The permissive licensing of free software means that
+distribution or design one to suit his or her own needs.
