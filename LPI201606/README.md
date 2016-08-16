@@ -16,15 +16,15 @@ What is the difference between two commands:
 ls /dev/null /dev/do-not-exist 2>&1 >/dev/null
 ```
 Answer tuannv:
-	+ err -> terminal -> /dev/null
-	+ out -> /dev/null
++ err -> terminal -> /dev/null
++ out -> /dev/null
 and:
 
 ```sh
 ls /dev/null /dev/do-not-exist >/dev/null 2>&1
 ```
 Answer tuannv: 
-	+ out,err -> /dev/null if error -> 2 -> terminal
++ out,err -> /dev/null if error -> 2 -> terminal
 
 # Question 3
 
@@ -39,8 +39,8 @@ With text file in `data.txt`:
  - Make in-place change: `Linux` to `LINUX`
 
 Answer tuannv:
- 	+change modification time:     touch -m -t YYYYMMDD
- 	+print all even lines:         sed '1~2d' data.txt > event_lines.txt
- 	+make in-place change:         sed -i -e 's/Linux/LINUX/' data.txt
++ change modification time:     touch -m -t YYYYMMDD
++ print all even lines:         sed '1~2d' data.txt > event_lines.txt
++ make in-place change:         sed -i -e 's/Linux/LINUX/' data.txt
 
 `data.txt` content refer from [here](https://en.wikipedia.org/wiki/Linux_distribution)
