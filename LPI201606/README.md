@@ -24,7 +24,7 @@ and:
 ls /dev/null /dev/do-not-exist >/dev/null 2>&1
 ```
 Answer tuannv: 
-+ out,err -> /dev/null if error -> 2 -> terminal
++ out,err -> /dev/null, if >/dev/null error -> 2 -> terminal
 
 # Question 3
 
