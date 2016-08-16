@@ -15,14 +15,17 @@ What is the difference between two commands:
 ```sh
 ls /dev/null /dev/do-not-exist 2>&1 >/dev/null
 ```
-	+ err -> terminal -> /dev/null
-	+ out -> /dev/null
+Answer tuannv:
+	- err -> terminal -> /dev/null
+	- out -> /dev/null
 and:
 
 ```sh
 ls /dev/null /dev/do-not-exist >/dev/null 2>&1
 ```
-	+ out,err -> /dev/null if error -> 2 -> terminal
+Answer tuannv: 
+	- out,err -> /dev/null if error -> 2 -> terminal
+
 # Question 3
 
 What is signals? Which signals can not be caught by process?
@@ -35,8 +38,9 @@ With text file in `data.txt`:
  - Print all even lines in `data.txt` to a file named `event_lines.txt`
  - Make in-place change: `Linux` to `LINUX`
 
- + change modification time:     touch -m -t YYYYMMDD
- + print all even lines:         sed '1~2d' data.txt > event_lines.txt
- + make in-place change:         sed -i -e 's/Linux/LINUX/' data.txt
+Answer tuannv:
+ 	-change modification time:     touch -m -t YYYYMMDD
+ 	-print all even lines:         sed '1~2d' data.txt > event_lines.txt
+ 	-make in-place change:         sed -i -e 's/Linux/LINUX/' data.txt
 
 `data.txt` content refer from [here](https://en.wikipedia.org/wiki/Linux_distribution)
